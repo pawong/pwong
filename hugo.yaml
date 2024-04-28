@@ -30,10 +30,13 @@ languages:
     menu:
       main:
         - name: Resume
-          url: resume
+          url: Resume
           weight: 5
         - name: About
-          url: about
+          url: About
+          weight: 5
+        - name: Contact
+          url: Contact
           weight: 5
 
         # - name: Search
@@ -96,6 +99,7 @@ params:
     - name: email
       title: Email me
       url: "mailto:pwong@jaiken.com"
+
     # - name: Discord
     #   title: Join discord community
     #   url: "https://discord.gg/ahpmTvhVmp"
