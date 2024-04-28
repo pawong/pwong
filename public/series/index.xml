@@ -4,14 +4,9 @@
     <title>Series on Paul Wong</title>
     <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on Paul Wong</description>
-    <image>
-      <title>Paul Wong</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
-    <copyright>PaperMod Contributors</copyright>
+    <copyright>Copyright Paul Wong</copyright>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

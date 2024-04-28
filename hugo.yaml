@@ -1,7 +1,7 @@
 baseURL: https://pwong.jaiken.com/
 languageCode: en-us
 title: Paul Wong
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com)"
 
 theme: ["PaperMod"]
 
@@ -29,17 +29,20 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
-          url: archives
+        - name: Resume
+          url: resume
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        - name: About
+          url: about
+          weight: 5
+        # - name: Search
+        #   url: search/
+        #   weight: 10
+        # - name: Tags
+        #   url: tags/
+        #   weight: 10
+        # - name: WiKi
+        #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
 outputs:
   home:
@@ -49,50 +52,38 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: "Paul Wong Profile Page"
+  # author: Paul Wong
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
-  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowReadingTime: false
   # disableSpecial1stPost: true
   displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  ShowToc: true
+  ShowToc: false
   # comments: false
-  images: ["images/papermod-cover.png"]
 
   profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
+    enabled: true
+    title: "Paul Wong" # optional default will be site title
+    subtitle: "Software Engineer"
+    imageUrl: "images/profile.jpg" # optional
+    imageTitle: "That's me!" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
     buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
-
-  homeInfoParams:
-    Title: "About me"
-    Content: |+
-      <p>I am a well-seasoned Software Engineer experienced in all phases of software development lifecycle. My most recent job experience includes but is not limited to:</p>
-      <br/>
-      <ul>
-        <li>Designed developed implemented client/server, micro service web based and n-tiered application for a fast moving startup focusing on archiving web content using Python/FastAPI Framework and Postgres in the Cloud.
-        <li>DevOps, CICD, GCP and AWS.
-        <li>Developed solutions for Big Data.
-        <li>Project management, SCRUM leadership role.
-        <li>Working with a team and driving issues to completion as well as working independently.
+      - name: About
+        url: "/about"
+      - name: Resume
+        url: "/resume"
 
   socialIcons:
     - name: linkedin
@@ -101,6 +92,9 @@ params:
     - name: github
       title: View Github Account
       url: "https://github.com/wongpa"
+    - name: email
+      title: Email me
+      url: "mailto:pwong@jaiken.com"
     # - name: Discord
     #   title: Join discord community
     #   url: "https://discord.gg/ahpmTvhVmp"
@@ -128,9 +122,9 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
+  #     favicon: "images/favicon32x32.ico"
+  #     favicon16x16: "images/favicon16x16.ico"
+  #     favicon32x32: "images/favicon32x32.ico"
   #     apple_touch_icon: "<link / abs url>"
   #     safari_pinned_tab: "<link / abs url>"
 
