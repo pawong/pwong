@@ -2,8 +2,7 @@ baseURL: https://pwong.jaiken.com/
 languageCode: en-us
 title: Paul Wong
 copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com)"
-
-theme: ["PaperMod"]
+theme: [PaperMod]
 
 
 enableInlineShortcodes: true
@@ -13,7 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+#mainsections: ["posts", "papermod"]
 
 minify:
   disableXML: true
@@ -75,19 +74,32 @@ params:
   ShowToc: false
   # comments: false
 
-  profileMode:
-    enabled: true
-    title: "Paul Wong" # optional default will be site title
-    subtitle: "Software Engineer"
-    imageUrl: "images/profile.jpg" # optional
-    imageTitle: "That's me!" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: About
-        url: "/about"
-      - name: Resume
-        url: "/resume"
+  # profileMode:
+  #   enabled: true
+  #   title: "Paul Wong" # optional default will be site title
+  #   subtitle: "Software Engineer"
+  #   imageUrl: "images/profile.jpg" # optional
+  #   imageTitle: "That's me!" # optional
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+  #   # buttons:
+  #   #   - name: About
+  #   #     url: "/About"
+  #   #   - name: Contact
+  #   #     url: "/Contact"
+  #   #   - name: Resume
+  #   #     url: "/Resume"
+
+  homeInfoParams:
+    Title: "PaperMod's Demo"
+    Content: >
+      👋 Welcome to demo page of Hugo's theme PaperMod!
+
+      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+
+      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+
+      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
 
   socialIcons:
     - name: linkedin
