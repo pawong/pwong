@@ -93,10 +93,10 @@ params:
   socialIcons:
     - name: linkedin
       title: View Linkedin Account
-      url: "http://www.linkedin.com/in/pawong"
+      url: "http://www.linkedin.com/in/wongpa"
     - name: github
       title: View Github Account
-      url: "https://github.com/wongpa"
+      url: "https://github.com/pawong"
     - name: email
       title: Email me
       url: "mailto:pwong@jaiken.com"
