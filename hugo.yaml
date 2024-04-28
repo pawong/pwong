@@ -29,13 +29,13 @@ languages:
     menu:
       main:
         - name: Resume
-          url: Resume
+          url: resume
           weight: 5
         - name: About
-          url: About
+          url: about
           weight: 5
         - name: Contact
-          url: Contact
+          url: contact
           weight: 5
 
         # - name: Search
