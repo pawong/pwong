@@ -100,8 +100,6 @@ params:
     - name: email
       title: Email me
       url: "mailto:pwong@jaiken.com"
-    - name: phone
-      title: Call me
 
 
     # - name: Discord
