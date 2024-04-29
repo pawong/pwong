@@ -1,6 +1,6 @@
 # Resume
 
-<a href="pwong-resume.pdf" download="pwong-resume.pdf">
+<a href="https://pwong.jaiken.com/pwong-resume.pdf" download="pwong-resume.pdf">
   <img src="https://pwong.jaiken.com/images/pdf-download-icon.png" width="40" height="50"></img>
 </a>
 
