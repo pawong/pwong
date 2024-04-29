@@ -1,7 +1,7 @@
 baseURL: https://pwong.jaiken.com/
 languageCode: en-us
 title: Paul Wong
-copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com)"
+copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com), All rights reserved."
 theme: [PaperMod]
 
 
@@ -77,7 +77,7 @@ params:
   profileMode:
     enabled: true
     title: "Paul Wong" # optional default will be site title
-    subtitle: "Software Engineer"
+    subtitle: "Software Engineer, Technology Enthusiast"
     imageUrl: "images/profile.jpg" # optional
     imageTitle: "That's me!" # optional
     imageWidth: 120 # custom size
