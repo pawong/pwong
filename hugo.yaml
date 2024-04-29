@@ -73,6 +73,7 @@ params:
   ShowPageNums: true
   ShowToc: false
   # comments: false
+  copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com), All rights reserved."
 
   profileMode:
     enabled: true
