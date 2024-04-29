@@ -1,9 +1,8 @@
 # Contact
 
 ### Paul Wong
+
 ---
-15326 SE Elinor Street </br>
-Clackamas, Oregon 97015 </br>
 
 | | |
 |-|-|
