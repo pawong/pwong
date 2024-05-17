@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      img:hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes shake {
+        0% {
+          transform: translate(1px, 1px) rotate(0deg);
+        }
+        10% {
+          transform: translate(-1px, -2px) rotate(-1deg);
+        }
+        20% {
+          transform: translate(-3px, 0px) rotate(1deg);
+        }
+        30% {
+          transform: translate(3px, 2px) rotate(0deg);
+        }
+        40% {
+          transform: translate(1px, -1px) rotate(1deg);
+        }
+        50% {
+          transform: translate(-1px, 2px) rotate(-1deg);
+        }
+        60% {
+          transform: translate(-3px, 1px) rotate(0deg);
+        }
+        70% {
+          transform: translate(3px, 1px) rotate(-1deg);
+        }
+        80% {
+          transform: translate(-1px, -1px) rotate(1deg);
+        }
+        90% {
+          transform: translate(1px, 2px) rotate(0deg);
+        }
+        100% {
+          transform: translate(1px, -2px) rotate(-1deg);
+        }
+      }
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+      }
+
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 40px;
+        border: 2px solid #888;
+        width: 50%;
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .centerTable {
+        margin: 0px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About me</h1>
+
+    <p>
+      I am a well-seasoned Software Engineer experienced in all phases of
+      software development lifecycle. My most recent job experience includes but
+      is not limited to:
+    </p>
+    <ul>
+      <li>
+        Designed developed implemented client/server, micro service web based
+        and n-tiered application for a fast moving startup focusing on archiving
+        web content using Python/FastAPI Framework and Postgres in the Cloud.
+      </li>
+      <li>DevOps, CICD, GCP and AWS.</li>
+      <li>Developed solutions for Big Data.</li>
+      <li>Project management, SCRUM leadership role.</li>
+      <li>
+        Working with a team and driving issues to completion as well as working
+        independently.
+      </li>
+    </ul>
+    <br />
+    <br />
+    <table class="centerTable">
+      <tr>
+        <td>Should you <b>hire</b> this guy? Just ask the Magic 8 Ball.</td>
+        <td>
+          <button id="myBtn">
+            <img
+              class="button"
+              src="https://pwong.jaiken.com/images/8-ball.png"
+              alt="the 8 ball"
+              width="64"
+              height="64"
+            />
+          </button>
+        </td>
+      </tr>
+    </table>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="answer" style="color: black"></h2>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        const answers = [
+          "It is certain",
+          "It is decidedly so",
+          "Without a doubt",
+          "Yes definitely",
+          "You may rely on it",
+          "As I see it, yes",
+          "Most likely",
+          "Outlook good",
+          "Yes",
+          "Signs point to yes",
+        ];
+        document.getElementById("answer").innerHTML =
+          answers[Math.floor(Math.random() * answers.length)];
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
