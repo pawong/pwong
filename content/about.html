@@ -62,9 +62,10 @@
       .modal-content {
         background-color: #fefefe;
         margin: auto;
-        padding: 40px;
+        padding: 10px 20px 20px 20px;
         border: 2px solid #888;
         width: 50%;
+        border-radius: 10px;
       }
 
       /* The Close Button */
@@ -130,10 +131,12 @@
     <div id="myModal" class="modal">
       <!-- Modal content -->
       <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>The Magic 8 Ball says...</p>
+        <span class="close" style="float: right">&times;</span>
+        <p style="text-align: left">
+          Should you <b>hire</b> this guy? The Magic 8 Ball says...
+        </p>
         <hr />
-        <h2 id="answer" style="color: black"></h2>
+        <p id="answer" style="color: black; font-size: 30px"></p>
       </div>
     </div>
 
