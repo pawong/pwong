@@ -172,15 +172,15 @@ new challenges.
 
 ## Education
 
-Portland State University
+** Portland State University **
 Portland, Oregon
 
-Bachelor of Science in Mathematics
+### Bachelor of Science in Mathematics
 
 - Studied theoretical mathematics and problem solving.
 - Applied mathematical principals in computer science.
 
-**Licenses & certifications**
+### Licenses & certifications
 
 - AWS Certified Cloud Practitioner
 
