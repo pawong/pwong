@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 layout:
-url: "Resume"
+url: "/resume/"
 summary: My Resume
 ---
 

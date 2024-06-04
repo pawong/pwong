@@ -1,7 +1,7 @@
 ---
 title: "Paul Wong"
 layout:
-url: "/contact"
+url: "/contact/"
 summary: Contact Me
 ---
 

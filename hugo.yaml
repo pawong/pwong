@@ -29,22 +29,22 @@ languages:
     menu:
       main:
         - name: Archives
-          url: archives
+          url: archives/
           weight: 20
         - name: Search
-          url: search
+          url: search/
           weight: 25
         - name: Tags
-          url: tags
+          url: tags/
           weight: 30
         - name: Resume
-          url: resume
+          url: resume/
           weight: 10
         - name: About
-          url: about
+          url: about/
           weight: 5
         - name: Contact
-          url: contact
+          url: contact/
           weight: 15
 
 outputs:
