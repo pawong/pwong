@@ -1,7 +1,7 @@
 baseURL: https://pwong.jaiken.com/
 languageCode: en-us
 title: Paul Wong
-copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com), All rights reserved."
+copyright: "© Copyright Paul Wong, All rights reserved."
 theme: [PaperMod]
 
 
@@ -37,7 +37,7 @@ languages:
         - name: Tags
           url: tags/
           weight: 30
-        - name: Resume
+        - name: Résumé
           url: resume/
           weight: 10
         - name: About
@@ -73,7 +73,6 @@ params:
   ShowPageNums: true
   ShowToc: false
   # comments: false
-  copyright: "© Copyright [Paul Wong](mailto:pwong@jaiken.com), All rights reserved."
 
   profileMode:
     enabled: true

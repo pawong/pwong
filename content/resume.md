@@ -1,8 +1,8 @@
 ---
-title: "Resume"
+title: "Résumé"
 layout:
 url: "/resume/"
-summary: My Resume
+summary: My Résumé
 ---
 
 <a href="https://pwong.jaiken.com/pwong-resume-24.pdf" download="pwong-resume-24.pdf">
