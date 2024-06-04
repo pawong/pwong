@@ -28,6 +28,15 @@ languages:
       series: series
     menu:
       main:
+        - name: Archives
+          url: archives/
+          weight: 20
+        - name: Search
+          url: search/
+          weight: 25
+        - name: Tags
+          url: tags/
+          weight: 30
         - name: Resume
           url: resume
           weight: 10
@@ -83,13 +92,9 @@ params:
     imageTitle: "That's me!" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
-    # buttons:
-    #   - name: About
-    #     url: "/About"
-    #   - name: Contact
-    #     url: "/Contact"
-    #   - name: Resume
-    #     url: "/Resume"
+    buttons:
+      - name: Archives
+        url: "/archives"
 
   socialIcons:
     - name: linkedin
