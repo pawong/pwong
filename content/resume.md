@@ -172,8 +172,9 @@ new challenges.
 
 ## Education
 
-**Portland State University
-Portland, Oregon**
+**Portland State University**
+
+Portland, Oregon
 
 ### Bachelor of Science in Mathematics
 
