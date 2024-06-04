@@ -29,16 +29,16 @@ languages:
     menu:
       main:
         - name: Archives
-          url: archives/
+          url: Archives
           weight: 20
         - name: Search
-          url: search/
+          url: Search
           weight: 25
         - name: Tags
-          url: tags/
+          url: Tags
           weight: 30
         - name: Resume
-          url: resume
+          url: Resume
           weight: 10
         - name: About
           url: about
