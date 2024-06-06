@@ -228,13 +228,13 @@ The previous command doesn't delete admin level resource, using the following sc
 Build the image
 
 ```bash
-% docker build -t jaikenone/fast-api .
+% docker build -t jaiken/fast-api .
 ```
 
 Docker login and push
 
 ```bash
-% docker login && docker push jaikenone/fast-api
+% docker login && docker push jaiken/fast-api
 ```
 
 Example deploy document, `deploy.yaml`

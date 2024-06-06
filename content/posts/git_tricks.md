@@ -44,7 +44,7 @@ This will help avoid merge conflicts on pulls. [Why?](https://blog.sffc.xyz/post
 ### Go to the root directory you want the rep directory
 
 ```bash
-% git clone https://code.jaiken.com/paul/<repo_name>.git
+% git clone https://code.server.com/pwong/<repo_name>.git
 % cd <rep_name>
 % git pull
 ```
