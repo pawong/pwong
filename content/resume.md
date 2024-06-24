@@ -43,7 +43,7 @@ new challenges.
 
 - Contributing member on the Route 53 Application Recovery Controller Team.
 - Developed and maintained highly available, highly scalable internal and
-  external micro serviceREST APIs for new and existing products using Kotlin
+  external micro service REST APIs for new and existing products using Kotlin
   and Python.
 - DevOps work supporting the team, using internal CI/CD tools scripted in
   Typescript.
