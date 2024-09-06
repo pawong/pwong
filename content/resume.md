@@ -22,7 +22,7 @@ new challenges.
 | ---------------- | ---------------- | ---------------- |
 | 12/22 - 10/23    | **_Torqata_**    | Huntersville, NC |
 
-### Senior Software/DevOps Engineer
+### Senior Software Engineer
 
 - Designed and developed backend micro service APIs for integration of Auth
   with internal micro services using Python, FastAPI and Postgresql for
