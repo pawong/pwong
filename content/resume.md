@@ -20,6 +20,13 @@ new challenges.
 
 | <img width=150/> | <img width=350/> |                  |
 | ---------------- | ---------------- | ---------------- |
+| 6/24 - Present   | **_Intel_**      | Hillsboro, OR    |
+
+### Software Engineer - Cloud, Contractor
+
+
+| <img width=150/> | <img width=350/> |                  |
+| ---------------- | ---------------- | ---------------- |
 | 12/22 - 10/23    | **_Torqata_**    | Huntersville, NC |
 
 ### Senior Software Engineer
