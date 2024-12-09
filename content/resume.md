@@ -5,25 +5,36 @@ url: "/resume/"
 summary: My Résumé
 ---
 
-<a href="https://pwong.jaiken.com/pwong-resume-24.pdf" download="pwong-resume-24.pdf">
+<a href="https://pwong.jaiken.com/pwong-resume-25.pdf" download="pwong-resume-25.pdf">
   <img src="https://pwong.jaiken.com/images/pdf-download-icon.png" width="40" height="50"></img>
 </a>
 
 ## Objective
 
-To obtain a stable position where I can utilize my previously acquired skills
-and experience for system design and analysis in the computer field, yet at
-the same time be given the opportunities to expand my knowledge and confront
-new challenges.
+To secure a position where I can apply my skills and experience in system
+design and analysis, while also having the opportunity to grow, learn, and
+tackle new challenges in the field of technology.
 
 ## Experience
 
-| <img width=150/> | <img width=350/> |                  |
-| ---------------- | ---------------- | ---------------- |
-| 6/24 - Present   | **_Intel_**      | Hillsboro, OR    |
+| <img width=150/> | <img width=350/> |               |
+| ---------------- | ---------------- | ------------- |
+| 6/24 - Present   | **_Intel_**      | Hillsboro, OR |
 
 ### Software Engineer - Cloud, Contractor
 
+- Assisted the Telemetry and Data Collection team by developing cloud-based
+  automation solutions and Infrastructure as Code (IaC).
+- Maintained and updated AWS CloudFormation scripts for the deployment and
+  configuration of data collection tools.
+- Collaborated on applications built with Django/Python, Elastic Beanstalk/
+  Clojure, and GoLang.
+- Created and managed Jenkins pipelines to streamline continuous integration
+  and delivery.
+- Leveraged AWS services, including Fargate, Lambda, S3, VPC, DocumentDB,
+  and IAM, to optimize cloud infrastructure and operations.
+- Contributed to cost optimization efforts by reducing the overall spend
+  across multiple systems.
 
 | <img width=150/> | <img width=350/> |                  |
 | ---------------- | ---------------- | ---------------- |
@@ -31,16 +42,18 @@ new challenges.
 
 ### Senior Software Engineer
 
-- Designed and developed backend micro service APIs for integration of Auth
-  with internal micro services using Python, FastAPI and Postgresql for
-  deployment on Kubernetes and Google Cloud Platform.
-- Built and imported IaC (Infrastructure as Code) using Terraform for the
-  cloud.
-- Added and refined existing Alerts for better monitoring and reduce noise.
-- Reduced over all GCP spend by 20% by removing unused projects, assets and
-  monitoring future spend.
-- Developed and maintained CI/CD with Github Actions.
-- Productive member of diverse and totally remote team.
+- Designed and developed backend microservice APIs to integrate Auth0 with
+  internal services using Python, FastAPI, and PostgreSQL, deployed on
+  Kubernetes (GKE) and Google Cloud Platform.
+- Implemented Infrastructure as Code (IaC) with Terraform for cloud resource
+  management.
+- Enhanced alerting systems for improved monitoring and reduced noise, while
+  cutting overall GCP costs by 20% through asset optimization and spend
+  tracking.
+- Built and maintained CI/CD pipelines with GitHub Actions for automated
+  testing and deployment.
+- Contributed effectively as a collaborative member of a fully remote and
+  diverse team.
 
 | <img width=150/> | <img width=350/> |                  |
 | ---------------- | ---------------- | ---------------- |
