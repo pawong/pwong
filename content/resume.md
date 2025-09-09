@@ -89,7 +89,7 @@ tackle new challenges in the field of technology.
 
 | <img width=150/> | <img width=350/>       |                  |
 | ---------------- | ---------------------- | ---------------- |
-| 10/14 – 12/21    | **_Comscore/Rentrak_** | Portland, Oregon |
+| 10/14 – 1/21     | **_Comscore/Rentrak_** | Portland, Oregon |
 
 ### Senior Software Engineer
 
