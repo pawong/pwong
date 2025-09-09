@@ -27,3 +27,6 @@ resources/
 .DS_Store
 .hugo_build.lock
 resources/_gen/
+
+# asdf
+.tool-versions
