@@ -2,7 +2,7 @@ baseURL: https://pwong.jaiken.com/
 languageCode: en-us
 title: Paul Wong
 copyright: "© Copyright Paul Wong, All rights reserved."
-theme: [PaperMod]
+theme: ["PaperMod"]
 
 
 enableInlineShortcodes: true
