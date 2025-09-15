@@ -80,8 +80,9 @@ tackle new challenges in the field of technology.
   Google.
 - Used Kubernetes to orchestrate the deployment, scaling and management of
   Docker Containers on premises, AWS and Azure.
-- Used AWS Lambda to deliver responsive and resilient micro service REST
-  APIs and deployed with Terraform.
+- Leveraged AWS SQS and EventBridge to route messages to AWS Lambda, enabling
+  responsive and resilient microservice-based REST APIs, with infrastructure
+  provisioned using Terraform.
 - Integrated Algolia search engine technologies for fast and fluid search
   interface.
 - Participated in mentoring new and junior engineers.
