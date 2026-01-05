@@ -21,23 +21,23 @@ production environments.
 ## Core Technical Skills
 
 _Programming Languages_
-Python, Go, Kotlin, C/C++, C#, JavaScript/TypeScript, Java
+<br>Python, Go, Kotlin, C/C++, C#, JavaScript/TypeScript, Java
 
 _Backend & Distributed Systems_
-REST APIs, Microservices, Event-driven systems, Data pipelines, System
+<br>REST APIs, Microservices, Event-driven systems, Data pipelines, System
 design, Scalability, Reliability
 
 _Frameworks & Libraries_
-FastAPI, Django, Flask, Node.js, .NET, Angular
+<br>FastAPI, Django, Flask, Node.js, .NET, Angular
 
 _Data & Messaging_
-PostgreSQL, Snowflake, Redshift, ClickHouse, SNS, SQS, EventBridge
+<br>PostgreSQL, Snowflake, Redshift, ClickHouse, SNS, SQS, EventBridge
 
 _Testing & Quality_
-Unit testing, integration testing, TDD, code reviews, performance tuning
+<br>Unit testing, integration testing, TDD, code reviews, performance tuning
 
 _Platforms_
-Kubernetes, Docker, AWS, GCP, CI/CD (GitHub Actions, Jenkins, Airflow)
+<br>Kubernetes, Docker, AWS, GCP, CI/CD (GitHub Actions, Jenkins, Airflow)
 
 ## Professional Experience
 
