@@ -31,13 +31,13 @@ _Frameworks & Libraries_
 <br>FastAPI, Django, Flask, Node.js, .NET, Angular
 
 _Data & Messaging_
-<br>PostgreSQL, Snowflake, Redshift, ClickHouse, SNS, SQS, EventBridge
+<br>PostgreSQL, Snowflake, Redshift, ClickHouse, MongoDB, SNS, SQS, EventBridge
 
 _Testing & Quality_
 <br>Unit testing, integration testing, TDD, code reviews, performance tuning
 
 _Platforms_
-<br>Kubernetes, Docker, AWS, GCP, CI/CD (GitHub Actions, Jenkins, Airflow)
+<br>Kubernetes, Docker, AWS, GCP, Terraform, Ansible, CloudFormation, CI/CD (GitHub Actions, Jenkins, Airflow)
 
 ## Professional Experience
 
