@@ -4,6 +4,12 @@ title: Paul Wong
 copyright: "© Copyright Paul Wong, All rights reserved."
 theme: ["PaperMod"]
 
+# Security configuration
+security:
+  enableInlineShortcodes: true
+  allowContent:
+    types:
+      - text/html
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
